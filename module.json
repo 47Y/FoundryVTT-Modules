@@ -6,14 +6,14 @@
   "library": false,
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 12,
+    "verified": 12,
+    "maximum": 12
   },
   "authors": [
     {
-      "name": "Your Name",
-      "url": "https://github.com/yourusername"
+      "name": "47Y",
+      "url": "https://github.com/47Y"
     }
   ],
   "relationships": {
@@ -21,8 +21,7 @@
     "requires": []
   },
   "esmodules": [
-    "scripts/module.js",
-    "scripts/shuffle.js"
+    "scripts/module.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
