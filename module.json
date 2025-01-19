@@ -1,9 +1,9 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
+  "id": "tile-shuffler",
+  "title": "Tile Shuffler",
+  "description": "A module that allows you to randomly shuffle map tiles in your scene.",
+  "version": "1.0.0",
+  "library": false,
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 10,
@@ -12,9 +12,8 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Your Name",
+      "url": "https://github.com/yourusername"
     }
   ],
   "relationships": {
@@ -22,13 +21,14 @@
     "requires": []
   },
   "esmodules": [
-    "scripts/module.js"
+    "scripts/module.js",
+    "scripts/shuffle.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
   ],
   "styles": [
-    "styles/module.css"
+    "styles/tile-shuffler.css"
   ],
   "languages": [
     {
@@ -37,9 +37,9 @@
       "path": "languages/en.json"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
